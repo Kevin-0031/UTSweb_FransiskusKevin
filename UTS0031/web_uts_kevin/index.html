@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velocity Rent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+    <header>
+        <div class="top">
+            <div class="logo">
+                <img src="image/Logo.png" alt="Logo">
+                <h1>Velocity Rent <span>By Kevin</span></h1>
+            </div>
+        <nav class="navbar">
+            <a href="">Beranda</a>
+            <a href="#tentang">Tentang Kami</a>
+            <a href="#layanan">Layanan Kami</a>
+            <a href="#armada">Armada</a>
+            <a href="#testimoni">Testimoni</a>
+            <a href="#pesan">Cara Pemesanan</a>
+        </nav>
+        <button class="contact">Contact</button>
+    </div>
+        <div class="hero">
+            <img src="image/page1.png" alt="Hero">
+            <div class="hero-text">
+                <h1><span class="highlight">Sewa Mobil</span><br>Tanpa Ribet<br>Tanpa Ribut</h1>
+                <button class="btn-dark" ><a href="#tentang">Tentang Kami</a></button>
+            </div>
+        </div>
+    </header>
+
+<body>
+  <div class="container" id="tentang">
+    <div class="content">
+      <div class="title">
+        <h1>Tentang<br>Kami</h1>
+      </div>
+      <div class="description">
+        <p>
+          Selamat datang di Velocity Rent, layanan rental mobil yang siap memenuhi kebutuhan transportasi Anda dengan aman, nyaman, dan terpercaya. Kami menyediakan berbagai pilihan kendaraan yang terawat dan berkualitas, cocok untuk perjalanan bisnis, liburan keluarga, maupun keperluan harian. Dengan pelayanan profesional dan harga yang kompetitif, kami berkomitmen memberikan pengalaman sewa mobil terbaik untuk setiap pelanggan.
+        </p>
+        <button class="btn"><a href="#layanan">Layanan Kami</a></button>
+      </div>
+      <div class="image">
+        <img src="image/tentang-preview.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="container-layanan" id="layanan">
+    <h1 class="layanan">Layanan Kami</h1>
+    <div class="page-layanan">
+      <ol class="list-layanan">
+        <li>Sewa Mobil Harian</li>
+        <li>Sewa Mobil Antar Jemput</li>
+        <li>Sewa Mobil Bulanan</li>
+        <li>Sewa Mobil tahunan atau Jangka Panjang</li>
+      </ol>
+      <button class="btn-armada"><a href="#armada">Armada</a></button>
+    </div>
+    <div class="img-layanan">
+      <img src="image/layanan-preview.png" alt="" />
+    </div>
+  </div>
+  <div class="container-armada" id="armada">
+    <h1 class="page-armada">Armada</h1>
+    <div class="list-car">
+      <div class="car-item">
+        <p class="name-car">Toyota Avanza</p>
+        <img src="image/avanza.png" alt="Toyota Avanza" class="img-car">
+        <button class="btn-sewa"><a href="#pesan">Sewa</a></button>
+      </div>
+      <div class="car-item">
+        <p class="name-car">Toyota Innova</p>
+        <img src="image/innova.png" alt="" class="img-car">
+        <button class="btn-sewa"><a href="#pesan">Sewa</a></button>
+      </div>
+      <div class="car-item">
+        <p class="name-car">Honda BR-V</p>
+        <img src="image/brv.png" alt="" class="img-brv">
+        <button class="btn-sewa"><a href="#pesan">Sewa</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="testimoni-wrapper" id="testimoni">
+    <div class="left">
+    <h1 class="testimoni-judul">Testimoni</h1>
+
+    <div class="testimoni-kiri">
+      <h3 class="rate-title">Rate Us</h3>
+      <div class="rating">
+        <input type="radio" name="rating" id="star1" value="1">
+        <label for="star1" class="star"></label>
+        <input type="radio" name="rating" id="star2" value="2">
+        <label for="star2" class="star"></label>
+        <input type="radio" name="rating" id="star3" value="3">
+        <label for="star3" class="star"></label>
+        <input type="radio" name="rating" id="star4" value="4">
+        <label for="star4" class="star"></label>
+        <input type="radio" name="rating" id="star5" value="5">
+        <label for="star5" class="star"></label>
+      </div>
+      <input type="text" class="input-comment" placeholder="Nama">
+      <input type="text" class="input-comment" placeholder="Email">
+      <input type="text" class="input-comment" placeholder="Komentar">
+    </div>
+  </div>
+    <div class="testimoni-kanan">
+      <div class="comment"><p>"Rental mobil terbaik! Proses cepat dan adminnya ramah"</p></div>
+      <div class="comment"><p>"Sangat recommended"</p></div>
+      <div class="comment"><p>"Sudah sewa beberapa kali disini, selalu puas. Harga bersahabat!"</p></div>
+    </div>
+  </div>
+  <div class="pemesanan-container" id="pesan">
+    <h1 class="pemesanan-judul">Cara Pemesanan</h1>
+    <ol class="pemesanan-list">
+      <li>Isi Biodata di bawah ini dengan benar</li>
+      <li>Lakukan Pembayaran</li>
+      <li>Tunggu E-mail atau Whatsapp untuk mengkonfirmasi pembayaran</li>
+    </ol>
+
+    <form class="pemesanan-form">
+      <input type="text" placeholder="isi nama" class="pemesanan-input" />
+      <input type="text" placeholder="alamat" class="pemesanan-input" />
+      <input type="text" placeholder="no.hp" class="pemesanan-input" />
+      <input type="email" placeholder="email" class="pemesanan-input" />
+      <button type="submit" class="pemesanan-button">Send</button>
+    </form>
+  </div>
+</body>
+</html>
